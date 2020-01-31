@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, title }) {
 
 SEO.defaultProps = {
   lang: `en`,
-  meta: [],
+  meta: [{name: 'designation', content: 'this is my first gatsby site'}],
   description: ``,
 }
 
